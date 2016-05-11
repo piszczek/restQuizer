@@ -24,11 +24,15 @@
         "friendsofsymfony/rest-bundle": "^1.7",
         "symfony/assetic-bundle": "^2.8",
         "hwi/oauth-bundle": "0.5.x-dev",
-        "friendsofsymfony/user-bundle": "~2.0@dev"
+        "friendsofsymfony/user-bundle": "~2.0@dev",
+        "jms/serializer-bundle": "^1.1",
+        "stof/doctrine-extensions-bundle": "^1.2",
+        "nelmio/api-doc-bundle": "^2.12"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
-        "symfony/phpunit-bridge": "^3.0"
+        "symfony/phpunit-bridge": "^3.0",
+        "doctrine/doctrine-fixtures-bundle": "^2.3"
     },
     "scripts": {
         "post-install-cmd": [

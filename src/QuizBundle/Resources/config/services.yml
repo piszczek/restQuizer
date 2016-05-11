@@ -1,0 +1,8 @@
+parameters:
+  quizer.quiz.class: QuizBundle\Entity\Quiz
+  quizer.handler.quiz_handler.class: QuizBundle\Handler\QuizHandler
+
+services:
+    quizer.quiz.handler:
+        class: '%quizer.handler.quiz_handler.class%'
+        arguments: ['@doctrine.orm.entity_manager', '%quizer.quiz.class%', '@form.factory']

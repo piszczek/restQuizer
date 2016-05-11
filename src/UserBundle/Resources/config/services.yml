@@ -1,0 +1,4 @@
+services:
+    user_provider:
+        class:        UserBundle\Security\Core\User\FOSUBUserProvider
+        arguments: ['@fos_user.user_manager.default', { facebook: facebook_id }]
