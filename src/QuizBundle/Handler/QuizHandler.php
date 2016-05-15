@@ -38,14 +38,15 @@ class QuizHandler implements QuizHandlerInterface
     /**
      * Get a list of Quizs.
      *
-     * @param int $limit  the limit of the result
+     * @param int $limit the limit of the result
      * @param int $offset starting from the offset
      *
+     * @param array $filters
      * @return array
      */
-    public function all($limit = 5, $offset = 0)
+    public function all($limit = 5, $offset = 0, $filters = [])
     {
-        return $this->repository->findBy(array(), null, $limit, $offset);
+        return $this->repository->findBy($filters, null, $limit, $offset);
     }
 
     /**

@@ -2,46 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919e4911-6750-41f1-ba89-eb651178ded5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/AbstractEntity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/EntityInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/QuizFixtures.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/quizes.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/DependencyInjection/QuizExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Entity/Answer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Entity/Question.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Entity/QuestionApproach.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Entity/Quiz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Entity/QuizApproach.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Exception/InvalidFormException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Form/Type/AnswerType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Form/Type/QuestionApproachType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Form/Type/QuestionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Form/Type/QuizApproachType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Form/Type/QuizType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Handler/QuizhandlerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Model/QuizInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/QuizBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Resources/config/routes.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Resources/config/services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Resources/views/Quiz/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuizBundle/Resources/views/Quiz/quizes.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/DependencyInjection/UserExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php" afterPath="$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/quizes.yml" afterPath="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/quizes.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php" afterPath="$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php" />
     </list>
     <ignored path="quizer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +34,7 @@
       <file leaf-file-name="QuizFixtures.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/QuizFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="306">
               <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="e#45#95#0#PHP" expanded="true" />
@@ -80,8 +48,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+            <state relative-caret-position="623">
+              <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -115,20 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuizBundle/Form/Type/QuestionType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-              <folding>
-                <element signature="e#460#1059#0#PHP" expanded="true" />
-                <element signature="e#1065#1529#0#PHP" expanded="true" />
-                <element signature="e#1591#1769#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuizApproachType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuizBundle/Form/Type/QuizApproachType.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,17 +93,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quizes.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="quizes.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/quizes.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -159,27 +113,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuizBundle/DependencyInjection/Configuration.php">
+      <file leaf-file-name="QuizController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="246">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding>
-                <element signature="e#173#403#0#PHP" expanded="true" />
-                <element signature="e#501#857#0#PHP" expanded="true" />
+                <element signature="e#45#93#0#PHP" expanded="true" />
+                <element signature="e#1527#1852#0#PHP" expanded="true" />
+                <element signature="e#1858#2296#0#PHP" expanded="true" />
+                <element signature="e#2301#2394#0#PHP" expanded="true" />
+                <element signature="e#2400#2714#0#PHP" expanded="true" />
+                <element signature="e#2719#2812#0#PHP" expanded="true" />
+                <element signature="e#2818#3458#0#PHP" expanded="true" />
+                <element signature="e#3463#4022#0#PHP" expanded="true" />
+                <element signature="e#4028#4770#0#PHP" expanded="true" />
+                <element signature="e#4775#5727#0#PHP" expanded="true" />
+                <element signature="e#5733#6419#0#PHP" expanded="true" />
+                <element signature="e#6424#7017#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizExtension.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuizBundle/DependencyInjection/QuizExtension.php">
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="333">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuizHandler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="e#264#436#0#PHP" expanded="true" />
-                <element signature="e#481#513#0#PHP" expanded="true" />
+                <element signature="e#1099#1245#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/QuizBundle/Exception/InvalidFormException.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/Handler/QuizhandlerInterface.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandlerInterface.php" />
-        <option value="$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/DependencyInjection/QuizExtension.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/Resources/config/services.yml" />
@@ -236,13 +208,14 @@
         <option value="$PROJECT_DIR$/src/Model/QuizInterface.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/Resources/views/Quiz/getPages.html.twig" />
         <option value="$PROJECT_DIR$/src/QuizBundle/Resources/views/Quiz/getQuizes.twig" />
+        <option value="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/QuizFixtures.php" />
+        <option value="$PROJECT_DIR$/src/QuizBundle/Entity/Quiz.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/QuizFixtures.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/QuizBundle/Entity/Quiz.php" />
         <option value="$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/quizes.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -297,8 +270,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -577,6 +550,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuizBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quizer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -655,6 +654,7 @@
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vagrant" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -733,36 +733,37 @@
       <workItem from="1462383034066" duration="8756000" />
       <workItem from="1462816988725" duration="6757000" />
       <workItem from="1462827387689" duration="4072000" />
-      <workItem from="1462981421960" duration="3830000" />
+      <workItem from="1462981421960" duration="4546000" />
+      <workItem from="1463155041808" duration="4821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42806000" />
+    <option name="totallyTimeSpent" value="48343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1931" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27461708" sideWeight="0.50187063" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28993437" sideWeight="0.49812934" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21111704" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25054705" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19134153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25054705" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27352297" sideWeight="0.49812934" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27352297" sideWeight="0.49812934" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -857,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
-          <folding>
-            <element signature="e#6467#6655#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,11 +965,11 @@
         <state relative-caret-position="170">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <element signature="e#186#278#0#PHP" expanded="true" />
-            <element signature="e#322#379#0#PHP" expanded="true" />
-            <element signature="e#417#517#0#PHP" expanded="true" />
-            <element signature="e#576#680#0#PHP" expanded="true" />
-            <element signature="e#742#805#0#PHP" expanded="true" />
+            <element signature="e#186#278#0#PHP" expanded="false" />
+            <element signature="e#322#379#0#PHP" expanded="false" />
+            <element signature="e#417#517#0#PHP" expanded="false" />
+            <element signature="e#576#680#0#PHP" expanded="false" />
+            <element signature="e#742#805#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -997,30 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#38#84#0#PHP" expanded="false" />
-            <element signature="e#404#696#0#PHP" expanded="false" />
-            <element signature="e#702#799#0#PHP" expanded="false" />
-            <element signature="e#804#885#0#PHP" expanded="false" />
-            <element signature="e#891#1066#0#PHP" expanded="false" />
-            <element signature="e#1071#1201#0#PHP" expanded="false" />
-            <element signature="e#1207#1319#0#PHP" expanded="false" />
-            <element signature="e#1324#1476#0#PHP" expanded="false" />
-            <element signature="e#1482#1630#0#PHP" expanded="false" />
-            <element signature="e#1635#1768#0#PHP" expanded="false" />
-            <element signature="e#1774#1934#0#PHP" expanded="false" />
-            <element signature="e#1939#2076#0#PHP" expanded="false" />
-            <element signature="e#2082#2338#0#PHP" expanded="false" />
-            <element signature="e#2343#2845#0#PHP" expanded="false" />
-            <element signature="e#2851#2933#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,7 +1031,7 @@
         <state relative-caret-position="1071">
           <caret line="214" column="42" selection-start-line="214" selection-start-column="42" selection-end-line="214" selection-end-column="42" />
           <folding>
-            <element signature="e#4756#5069#0#PHP" expanded="true" />
+            <element signature="e#4756#5069#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1068,46 +1040,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="1820" column="38" selection-start-line="1820" selection-start-column="38" selection-end-line="1820" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="227" column="34" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="34" />
-          <folding>
-            <element signature="e#45#93#0#PHP" expanded="true" />
-            <element signature="e#676#1416#0#PHP" expanded="true" />
-            <element signature="e#1421#1746#0#PHP" expanded="true" />
-            <element signature="e#1752#2190#0#PHP" expanded="true" />
-            <element signature="e#2195#2288#0#PHP" expanded="true" />
-            <element signature="e#2294#2608#0#PHP" expanded="true" />
-            <element signature="e#2613#2706#0#PHP" expanded="true" />
-            <element signature="e#2712#3352#0#PHP" expanded="true" />
-            <element signature="e#3357#3916#0#PHP" expanded="true" />
-            <element signature="e#3922#4664#0#PHP" expanded="true" />
-            <element signature="e#4669#5621#0#PHP" expanded="true" />
-            <element signature="e#5627#6313#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuizBundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="85">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#173#403#0#PHP" expanded="true" />
-            <element signature="e#501#857#0#PHP" expanded="true" />
+            <element signature="e#173#403#0#PHP" expanded="false" />
+            <element signature="e#501#857#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,17 +1058,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
           <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuizBundle/DependencyInjection/QuizExtension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="153">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="38" />
           <folding>
-            <element signature="e#264#436#0#PHP" expanded="true" />
-            <element signature="e#481#513#0#PHP" expanded="true" />
+            <element signature="e#264#436#0#PHP" expanded="false" />
+            <element signature="e#481#513#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1135,9 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#925#1064#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,9 +1084,9 @@
         <state relative-caret-position="153">
           <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding>
-            <element signature="e#460#1059#0#PHP" expanded="true" />
-            <element signature="e#1065#1529#0#PHP" expanded="true" />
-            <element signature="e#1591#1769#0#PHP" expanded="true" />
+            <element signature="e#460#1059#0#PHP" expanded="false" />
+            <element signature="e#1065#1529#0#PHP" expanded="false" />
+            <element signature="e#1591#1769#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1171,7 +1109,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/QuizFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="306">
           <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="e#45#95#0#PHP" expanded="true" />
@@ -1181,10 +1119,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuizBundle/Handler/QuizHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#1099#1245#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuizBundle/Controller/Api/QuizController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding>
+            <element signature="e#45#93#0#PHP" expanded="true" />
+            <element signature="e#1527#1852#0#PHP" expanded="true" />
+            <element signature="e#1858#2296#0#PHP" expanded="true" />
+            <element signature="e#2301#2394#0#PHP" expanded="true" />
+            <element signature="e#2400#2714#0#PHP" expanded="true" />
+            <element signature="e#2719#2812#0#PHP" expanded="true" />
+            <element signature="e#2818#3458#0#PHP" expanded="true" />
+            <element signature="e#3463#4022#0#PHP" expanded="true" />
+            <element signature="e#4028#4770#0#PHP" expanded="true" />
+            <element signature="e#4775#5727#0#PHP" expanded="true" />
+            <element signature="e#5733#6419#0#PHP" expanded="true" />
+            <element signature="e#6424#7017#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        <state relative-caret-position="623">
+          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1207,16 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuizBundle/DataFixtures/ORM/quizes.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

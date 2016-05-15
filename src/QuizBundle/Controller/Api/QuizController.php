@@ -28,6 +28,7 @@ class QuizController extends FOSRestController
      *   }
      * )
      *
+     * @Annotations\QueryParam(name="title", requirements=".+", nullable=true, description="Quiz title.")
      * @Annotations\QueryParam(name="offset", requirements="\d+", nullable=true, description="Offset from which to start listing quizs.")
      * @Annotations\QueryParam(name="limit", requirements="\d+", default="5", description="How many quizes to return.")
      *

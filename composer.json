@@ -27,7 +27,8 @@
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "jms/serializer-bundle": "^1.1",
         "stof/doctrine-extensions-bundle": "^1.2",
-        "nelmio/api-doc-bundle": "^2.12"
+        "nelmio/api-doc-bundle": "^2.12",
+        "nelmio/cors-bundle": "^1.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

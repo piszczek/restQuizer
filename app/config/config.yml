@@ -99,3 +99,11 @@ stof_doctrine_extensions:
         default:
             sluggable: true
             timestampable: true
+
+nelmio_cors:
+    paths:
+        '^/api/':
+            allow_origin: ['*']
+            allow_headers: ['*']
+            allow_methods: ['POST', 'PUT', 'GET', 'DELETE','OPTIONS']
+            max_age: 3600
